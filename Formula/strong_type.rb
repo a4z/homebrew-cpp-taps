@@ -5,11 +5,11 @@ class StrongType < Formula
   sha256 "154e4ceda6cf8fe734deb7eafdf58df5052822d04425dc7c22711ef54cdaeefa"
   license "BSL-1.0"
 
-  depends_on "cmake" => :build
-
   bottle do
     sha256 cellar: :any_skip_relocation, all: "016556278cd2880486c4fd1f15918c5561c8034a69c66d80f5a7c9f813381fe1"
   end
+
+  depends_on "cmake" => :build
 
   def install
     mkdir "build" do
