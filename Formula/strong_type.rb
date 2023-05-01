@@ -8,6 +8,7 @@ class StrongType < Formula
   depends_on "cmake" => :build
 
   bottle do
+    sha256 cellar: :any_skip_relocation, all: "016556278cd2880486c4fd1f15918c5561c8034a69c66d80f5a7c9f813381fe1"
   end
 
   def install
