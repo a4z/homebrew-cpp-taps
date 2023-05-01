@@ -1,4 +1,4 @@
-# A4z Cpp-taps
+# a4z cpp-taps
 
 ## How do I install these formulae?
 
