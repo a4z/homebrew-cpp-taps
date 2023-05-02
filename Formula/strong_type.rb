@@ -8,7 +8,7 @@ class StrongType < Formula
   bottle do
     root_url "https://github.com/a4z/homebrew-cpp-taps/releases/download/strong_type-10"
     rebuild 1
-    sha256 cellar: :any_skip_relocation, all:      "b0d2114a201cd91de39c4ab9164069305053529e50bb05fd9c99676d6b5ec41e"
+    sha256 cellar: :any_skip_relocation, all:          "b0d2114a201cd91de39c4ab9164069305053529e50bb05fd9c99676d6b5ec41e"
     sha256 cellar: :any_skip_relocation, x86_64_linux: "09cb48a817459dc9903a0aca65c8c0fd188c15fd36eddc18634a231acf71cc77"
   end
 
@@ -31,7 +31,6 @@ class StrongType < Formula
         return 1;
       }
     EOS
-    # comment for change, trigger CI
     system ENV.cxx, "test.cpp", "-std=c++14", "-o", "test"
     system "./test"
   end
