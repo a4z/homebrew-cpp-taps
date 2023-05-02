@@ -7,9 +7,9 @@ class StrongType < Formula
 
   bottle do
     root_url "https://github.com/a4z/homebrew-cpp-taps/releases/download/strong_type-10"
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, auto:         "b0d2114a201cd91de39c4ab9164069305053529e50bb05fd9c99676d6b5ec41e"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "09cb48a817459dc9903a0aca65c8c0fd188c15fd36eddc18634a231acf71cc77"
+    rebuild 2
+    sha256 cellar: :any_skip_relocation, ventura:      "98329c8256c6d5300e24fbbbe9cef7d894f67c103ec14ec5f4eb818695d6cb28"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "c075a2854ff35298914ced71404c7a0d15cc51b5fc00d4b8f4497dbee4f17d65"
   end
 
   depends_on "cmake" => :build
