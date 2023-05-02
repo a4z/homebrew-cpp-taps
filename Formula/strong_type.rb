@@ -28,7 +28,6 @@ class StrongType < Formula
         return 1;
       }
     EOS
-    # requries c++14
     system ENV.cxx, "test.cpp", "-std=c++14", "-o", "test"
     system "./test"
   end
