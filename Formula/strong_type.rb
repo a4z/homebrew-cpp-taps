@@ -31,6 +31,7 @@ class StrongType < Formula
         return 1;
       }
     EOS
+    # comment for change, trigger CI
     system ENV.cxx, "test.cpp", "-std=c++14", "-o", "test"
     system "./test"
   end
