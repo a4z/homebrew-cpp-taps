@@ -1,8 +1,8 @@
 class StrongType < Formula
   desc "Additive strong typedef library for C++14/17/20"
   homepage "https://github.com/rollbear/strong_type"
-  url "https://github.com/rollbear/strong_type/archive/refs/tags/v10.tar.gz"
-  sha256 "154e4ceda6cf8fe734deb7eafdf58df5052822d04425dc7c22711ef54cdaeefa"
+  url "https://github.com/rollbear/strong_type/archive/refs/tags/v11.tar.gz"
+  sha256 "b9879c8835501c05147603ac86097b263437f72a35299b5f96c90be789932418"
   license "BSL-1.0"
 
   bottle do
