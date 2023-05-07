@@ -20,7 +20,7 @@ class Mdspan < Formula
       #include <iostream>
       #include <array>
       int main() {
-        std::array d{
+        std::array<int> d{
           0, 5, 1,
           3, 8, 4,
           2, 7, 6,
@@ -32,7 +32,7 @@ class Mdspan < Formula
             std::cout << "m(" << i << ", " << j << ") == " << m(i, j) << "\n";
       }
     EOS
-    system ENV.cxx, "test.cpp", "-std=c++14", "-o", "test"
+    system ENV.cxx, "test.cpp", "-std=c++17", "-o", "test"
     system "./test"
   end
 end
