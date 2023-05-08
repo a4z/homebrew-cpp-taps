@@ -5,6 +5,12 @@ class Mdspan < Formula
   version "0.6.1-git"
   license "Apache-2.0" => { with: "LLVM-exception" }
 
+  bottle do
+    root_url "https://github.com/a4z/homebrew-cpp-taps/releases/download/mdspan-0.6.1-git"
+    sha256 cellar: :any_skip_relocation, ventura:      "b6a857ee0a42a736be398f90b86254c9348a75ecad0d3185d6cf03fceb4f3975"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "682704b7a5e5ad347e1dac2df16be08ac28c787b8b0cb82c6383f84b7726a476"
+  end
+
   def install
     cp_r "include/.", include.to_s
   end
