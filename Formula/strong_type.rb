@@ -6,9 +6,9 @@ class StrongType < Formula
   license "BSL-1.0"
 
   bottle do
-    root_url "https://github.com/a4z/homebrew-cpp-taps/releases/download/strong_type-11"
-    sha256 cellar: :any_skip_relocation, ventura:      "6bf297f3c01649f4db35df2d75e1c21de9503d13de75d6b707a7347c9ce65851"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "4b88b4552674ae052befa8e32fad1b1610a0b735e81da8d60ebc2de4347d18e2"
+    root_url "https://github.com/a4z/homebrew-cpp-taps/releases/download/strong_type-12"
+    sha256 cellar: :any_skip_relocation, ventura:      "bb2e974803305302c8ab9e7d2ce739fff456a0cf21de0ce5a9cdd6a14e579473"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "336daadd94c6570d725ad4c1dd3cef7ca06d372f517275de7d82373bc4b4e1bc"
   end
 
   depends_on "cmake" => :build
